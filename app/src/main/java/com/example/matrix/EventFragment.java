@@ -1,6 +1,5 @@
 package com.example.matrix;
 
-
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,7 +12,6 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,8 +27,6 @@ public class EventFragment extends Fragment {
         public void onItemSelected(int position);
     }
 
-
-
     @Override
     public void onAttach(Context context){
         super.onAttach(context);
@@ -45,7 +41,6 @@ public class EventFragment extends Fragment {
     public EventFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -89,7 +84,4 @@ public class EventFragment extends Fragment {
                 "Event10", "Event11", "Event12"};
         return names;
     }
-
-
-
 }
